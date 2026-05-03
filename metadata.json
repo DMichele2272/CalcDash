@@ -1,0 +1,6 @@
+{
+  "name": "CalculatorDash",
+  "description": "A comprehensive, high-performance utility network featuring professional-grade calculators for finance, unit conversion, and statistical analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["Financial Calculators", "Unit Conversion", "Graphing Tools"]
+}
