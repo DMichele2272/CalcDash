@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://calc-dash-beta.vercel.app/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Add more calculator pages here as you create them -->
+  <!-- Example:
+  <url>
+    <loc>https://calc-dash-beta.vercel.app/finance</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+</urlset>
