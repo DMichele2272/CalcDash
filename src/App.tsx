@@ -111,21 +111,24 @@ export default function App() {
             </div>
           </header>
 
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={activeTab}
-              initial={{ opacity: 0, scale: 0.98 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 1.02 }}
-              transition={{ duration: 0.2 }}
-              className="flex-1"
-            >
-              {activeTab === 'basic' && <BasicCalculator />}
-              {activeTab === 'mortgage' && <MortgageCalculator />}
-              {activeTab === 'units' && <UnitConverter />}
-              {activeTab === 'percentage' && <PercentageCalculator />}
-            </motion.div>
-          </AnimatePresence>
+         <AnimatePresence mode="wait">
+  <motion.div 
+    key={activeTab} 
+    initial={{ opacity: 0, scale: 0.98 }} 
+    animate={{ opacity: 1, scale: 1 }} 
+    exit={{ opacity: 0, scale: 1.02 }} 
+    transition={{ duration: 0.2 }} 
+    className="flex-1"
+  >
+    {activeTab === 'basic' && <BasicCalculator />}
+    {activeTab === 'age' && <AgeCalculator />}
+    {activeTab === 'bmi' && <BMICalculator />}
+    {activeTab === 'mortgage' && <MortgageCalculator />}
+    {activeTab === 'units' && <UnitConverter />}
+    {activeTab === 'percentage' && <PercentageCalculator />}
+  </motion.div>
+</AnimatePresence>
+
 
           <footer className="mt-20 flex justify-between items-center text-[10px] font-mono text-zinc-600 uppercase tracking-[0.2em]">
             <div className="flex gap-8">
