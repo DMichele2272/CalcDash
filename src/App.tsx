@@ -20,11 +20,13 @@ import UnitConverter from './components/calculators/UnitConverter';
 import PercentageCalculator from './components/calculators/PercentageCalculator';
 import TipCalculator from './components/calculators/TipCalculator';
 
-const tabs = [
-  { id: 'basic', label: 'Basic', icon: Calculator, color: 'text-neon-pink', border: 'neon-border-pink', bg: 'bg-neon-pink' },
-  { id: 'mortgage', label: 'Lending', icon: Home, color: 'text-neon-lime', border: 'neon-border-lime', bg: 'bg-neon-lime' },
-  { id: 'units', label: 'Units', icon: RefreshCw, color: 'text-neon-cyan', border: 'neon-border-cyan', bg: 'bg-neon-cyan' },
-  { id: 'percentage', label: 'Stats', icon: TrendingUp, color: 'text-neon-purple', border: 'neon-border-purple', bg: 'bg-neon-purple' },
+const tabs = [ 
+  { id: 'basic', label: 'Basic', icon: Calculator, color: 'text-neon-pink', border: 'neon-border-pink', bg: 'bg-neon-pink' }, 
+  { id: 'age', label: 'Age', icon: Calculator, color: 'text-neon-pink', border: 'neon-border-pink', bg: 'bg-neon-pink' }, 
+  { id: 'bmi', label: 'Biometrics', icon: Calculator, color: 'text-neon-purple', border: 'neon-border-purple', bg: 'bg-neon-purple' }, 
+  { id: 'mortgage', label: 'Lending', icon: Home, color: 'text-neon-lime', border: 'neon-border-lime', bg: 'bg-neon-lime' }, 
+  { id: 'units', label: 'Units', icon: RefreshCw, color: 'text-neon-cyan', border: 'neon-border-cyan', bg: 'bg-neon-cyan' }, 
+  { id: 'percentage', label: 'Stats', icon: TrendingUp, color: 'text-neon-purple', border: 'neon-border-purple', bg: 'bg-neon-purple' }, 
 ];
 
 export default function App() {
